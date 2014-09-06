@@ -1,0 +1,153 @@
+Go
+aka #golang
+19:00 10 Sep 2014
+Tags: go, golang, polyglot, programming, dc, meetup
+
+Bryan Weber
+President, Cobenian
+bryan@cobenian.com
+http://www.cobenian.com
+@cobenian
+@brweber2
+
+* Who am I?
+
+Own a small software company focused on network related software development
+
+* What does 'network related software development' mean?
+
+- DNS
+- BGP
+- Web
+- Moving packets
+- Monitoring packets
+- CLI tools
+- Security
+- Custom protocols
+- And a whole lot more
+
+* Why do we choose go?
+
+- Network
+- Software
+- Small
+- Fast
+- Easy
+- Control
+
+* Go street cred?
+
+Written DNS database parser
+
+Writing a draft RFC reference implementation
+
+Writing a service prototyping tool
+
+* Polyglot street cred?
+
+Do a lot more than Go
+
+I've written a language or two... (actually more)
+
+And tried so many I lost count long ago...
+
+Do not consider these fringe: Haskell, Erlang, Prolog
+
+* Go vs. golang
+
+Go - a programmling language
+
+Golang - a searchable term, but not the name of a programming language
+
+* Perlis languages
+
+  A language that doesn’t affect the way you think about programming is not worth knowing.
+
+.caption [[http://blog.fogus.me/2011/08/14/perlis-languages/][_Alan_Perlis_]]
+
+* Cheap shots
+
+  Go is like a better C, from the guys that didn’t bring you C++
+
+.caption [[http://go-lang.cat-v.org/quotes][_Ikai_Lan_]]
+
+* What do people think about go?
+
+  Four out of five language designers agree: Go sucks. The fifth was too busy [to answer]
+  actually writing code [in Go].
+
+.caption [[http://go-lang.cat-v.org/quotes][_aiju_]]
+
+* What you don't get (and won't get)
+
+- Generics
+- Exceptions (kinda sorta)
+- Comprehensions
+- Formatting options
+- Pointer arithmetic
+- Macros
+
+* What you do get
+
+- Limited language
+- Fast compilation
+- Garbage collection
+- Explicit code
+- Concurrency
+- Speed*
+- Reasonable size and footprint*
+- Tooling
+- Easy deployments
+
+* No magic
+
+- Concurrency is hard
+- Dependency management is hard
+
+* Culture
+
+- Avoid enterprise complexity
+- Be explicit
+- Focus on solving problems with software
+
+* zomg code puhleez
+
+.code hello.go /^func main/,/^}/
+
+* showing off
+
+.play hello.go
+
+* So what do you get?
+
+Structs
+Functions
+Interfaces
+
+* Structs
+
+.code example.go /^type/,/^}/
+
+* Functions
+
+.code example.go /^func PersonToString/,/^}/
+
+* Interfaces
+
+.code example.go /^type PrintablePerson/,/^}/
+
+.code example.go /^func \(p/,/^}/
+
+* Goroutines
+
+.code concurrent.go
+
+* Channels
+
+.code channels.go
+
+* Shameless plug
+
+.link http://gothamgo.com/ GothamGo
+
+.image gothamgo.jpg
